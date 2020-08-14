@@ -1,0 +1,12 @@
+a{
+    background-color:none;
+}
+#notes{
+    width:100px;
+    height:100px;
+    overflow:scroll;
+}
+#news{
+    color:red;
+}
+

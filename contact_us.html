@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="css/primary.css">
+</head>
+<body>
+    <div id="container">
+    <img src="images/logo.png" alt="This is a picture of company logo" height="100px">
+    <a href="home.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="contact_us.html">Contact Us</a>
+    <a href="customers.html">Customers</a>
+    <div id="tel">Tel:0123-456-789</div>
+    <hr>
+    <h1 id="page_title" center>Contact Us</h1>
+    <hr>
+    <!-- Add contact us form -->
+    <form>
+        <h3>Please feel free to contact us for any products and services.</h3>
+        <h4>CONTACT DETAILS</h4>
+        <input type="radio" id="buying_cars" name="rselection" value="buying_cars">
+        <label for="buying_cars">Buying Cars</label>
+        <input type="radio" id="washing_cars" name="rselection" value="washing_cars">
+        <label for="washing_cars">Washing Cars</label>
+        <input type="radio" id="fixing_cars" name="rselection" value="fixing_cars">
+        <label type="fixing_cars">Fixing Cars</label>
+        <input type="radio" id="others" name="rselection" value="others">
+        <label type="others">Others</label>
+        <br>
+        <select name="concern" id="concern" multiple>
+            <option value="customer_service">Customer Service</option>
+            <option value="price_inquiry">Price Inquiry</option>
+            <option value="appointment">Appointment</option>
+            <option value="others">Others</option>
+        </select>
+        <hr>
+        <h4>CUSTERMER INFORMATIONS</h4>
+        <select id="title" name="country">
+            <option value="mr">Mr.</option>
+            <option value="ms">Ms.</option>
+            <option value="miss">Miss.</option>
+            <option value="mrs">Mrs.</option>
+        </select>
+        <br>
+        <input id="focus_effect" type="text" placeholder="Please enter your name.">
+        <br>
+        <h6>Please enter your ID and Passwards</h6>
+        <input type="password" id="id" minlength="8" placeholder="Please enter your ID." required>
+        <br>
+        <input type="password" id="password" minlength="8" placeholder="Please enter your passwords." required>
+        <h6>Please enter your e-mail address</h6>
+        <input type="email" id="email" placeholder="Please enter your e-mail address." required>
+        <br>
+        <h6>Please write your message</h6>
+        <textarea id="message" name="message" placeholder="Write your message here"></textarea>
+        
+        <br>
+        <input type="radio" id="customer" name="rselection" value="customer">
+        <label for="customer">Customer</label>
+        <input type="radio" id="investor" name="rselection" value="investor">
+        <label for="investor">Investor</label>
+        <input type="radio" id="visitor" name="rselection" value="visitor">
+        <label type="visitor">Visitor</label>
+
+        <br>
+        <select id="country" name="country">
+            <option value="australia">Austraria</option>
+            <option value="canada">Canada</option>
+            <option value="japan">Japan</option>
+            <option value="phillippines">Phillippines</option>
+        </select>
+        <br>
+        <label for="myfile">Select file</label>
+        <input type="file" id="myfile" name="myfile">
+        <br>
+        <input type="number" id="number" name="amount" min="1" max="10">
+        <br>
+        <button type="submit" form="forml" value="submit">Submit</button>
+       
+       
+    </form>
+    </div>
+</body>
+</html>
